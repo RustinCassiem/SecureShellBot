@@ -82,7 +82,7 @@ telegram-bot
    ```json
    [
      { "name": "k8-webapps-dev", "ip": "server1.example.com" },
-     { "name": "Docker Desktop", "ip": "server2.example.com" }
+     { "name": "ubuntu-server", "ip": "server2.example.com" }
    ]
    ```
 
@@ -176,7 +176,7 @@ sudo su - <targetuser>
 
 Example sudoers entry:
 ```
-yourldapuser ALL=(webapps, wildfly, willy) NOPASSWD: ALL
+yourldapuser ALL=(root, user, something) NOPASSWD: ALL
 ```
 
 ## Troubleshooting
