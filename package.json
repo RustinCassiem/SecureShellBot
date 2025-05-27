@@ -1,0 +1,27 @@
+{
+  "name": "telegram-bot-executor",
+  "version": "1.0.0",
+  "description": "A Telegram bot that can execute scripts on the server.",
+  "main": "src/bot.ts",
+  "scripts": {
+    "start": "ts-node src/bot.ts",
+    "build": "tsc && npm run copy-data",
+    "copy-data": "copy servers.json dist\\servers.json && copy commands.json dist\\commands.json"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "ldapjs": "^3.0.7",
+    "node-ssh": "^13.2.1",
+    "node-telegram-bot-api": "^0.63.0",
+    "telegraf": "^4.16.3",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "@types/ldapjs": "^3.0.6",
+    "@types/node": "^22.15.19",
+    "ts-node": "^10.9.2",
+    "typescript": "^4.9.5"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}

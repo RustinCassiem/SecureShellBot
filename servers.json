@@ -1,0 +1,5 @@
+[
+  { "name": "k8-1", "ip": "cloudserver-k8.io" },
+  { "name": "docker-1", "ip": "cloudserver-docker-1.io" },
+  { "name": "docker-2", "ip": "cloudserver-docker-2.io" }
+]

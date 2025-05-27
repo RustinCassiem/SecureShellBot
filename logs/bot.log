@@ -1,0 +1,325 @@
+2025-05-20 20:08:52 info: Whitelisted users configured: 1
+2025-05-20 20:08:52 warn: WARNING: For security, ensure NODE_SSH_NO_DEBUG=1 is set in production to prevent credential logging
+2025-05-20 20:08:52 info: Attempting to launch bot...
+2025-05-20 20:08:52 info: Bot launched successfully!
+2025-05-20 20:08:56 info: User 5824526463 attempted to start the bot
+2025-05-20 20:08:56 info: User 5824526463 started the bot
+2025-05-20 20:09:00 info: Received message from 5824526463: "e568363"
+2025-05-20 20:09:00 info: Current state for user 5824526463: awaiting_username
+2025-05-20 20:09:03 info: Received password input from 5824526463
+2025-05-20 20:09:03 info: Current state for user 5824526463: awaiting_password
+2025-05-20 20:09:03 info: Attempting LDAP authentication for user: e568363
+2025-05-20 20:09:03 info: LDAP bind successful
+2025-05-20 20:09:03 info: User 5824526463 authenticated successfully
+2025-05-20 20:09:04 info: Server keyboard sent to user 5824526463
+2025-05-20 20:09:07 info: Received message from 5824526463: "k8-webapps-dev"
+2025-05-20 20:09:07 info: Current state for user 5824526463: selecting_server
+2025-05-20 20:09:07 info: User 5824526463 is selecting server: k8-webapps-dev
+2025-05-20 20:09:07 info: Server found: k8-webapps-dev (srv041049)
+2025-05-20 20:09:07 info: Sending keyboard: {"remove_keyboard":true}
+2025-05-20 20:09:12 info: Received message from 5824526463: "webapps"
+2025-05-20 20:09:12 info: Current state for user 5824526463: awaiting_sudo_user
+2025-05-20 20:09:12 info: Preparing to show command buttons for server k8-webapps-dev
+2025-05-20 20:09:13 info: Command buttons sent in 2 groups, showing group 1/2
+2025-05-20 20:09:16 info: Received message from 5824526463: "Next ▶️"
+2025-05-20 20:09:16 info: Current state for user 5824526463: selecting_script
+2025-05-20 20:10:52 info: Whitelisted users configured: 1
+2025-05-20 20:10:52 warn: WARNING: For security, ensure NODE_SSH_NO_DEBUG=1 is set in production to prevent credential logging
+2025-05-20 20:10:52 info: Attempting to launch bot...
+2025-05-20 20:10:52 info: Bot launched successfully!
+2025-05-20 20:10:56 info: User 5824526463 attempted to start the bot
+2025-05-20 20:10:56 info: User 5824526463 started the bot
+2025-05-20 20:11:01 info: Received message from 5824526463: "e568363"
+2025-05-20 20:11:01 info: Current state for user 5824526463: awaiting_username
+2025-05-20 20:11:04 info: Received password input from 5824526463
+2025-05-20 20:11:04 info: Current state for user 5824526463: awaiting_password
+2025-05-20 20:11:04 info: Attempting LDAP authentication for user: e568363
+2025-05-20 20:11:05 info: LDAP bind successful
+2025-05-20 20:11:05 info: User 5824526463 authenticated successfully
+2025-05-20 20:11:06 info: Server keyboard sent to user 5824526463
+2025-05-20 20:11:08 info: Received message from 5824526463: "k8-webapps-dev"
+2025-05-20 20:11:08 info: Current state for user 5824526463: selecting_server
+2025-05-20 20:11:08 info: User 5824526463 is selecting server: k8-webapps-dev
+2025-05-20 20:11:08 info: Server found: k8-webapps-dev (srv041049)
+2025-05-20 20:11:08 info: Sending keyboard: {"remove_keyboard":true}
+2025-05-20 20:11:14 info: Received message from 5824526463: "webapps"
+2025-05-20 20:11:14 info: Current state for user 5824526463: awaiting_sudo_user
+2025-05-20 20:11:14 info: Preparing to show command buttons for server k8-webapps-dev
+2025-05-20 20:11:14 info: All 10 command buttons sent at once
+2025-05-20 20:11:23 info: Received message from 5824526463: "COMMAND: Check Memory Usage"
+2025-05-20 20:11:23 info: Current state for user 5824526463: selecting_script
+2025-05-20 20:11:23 info: User 5824526463 is selecting script: COMMAND: Check Memory Usage
+2025-05-20 20:11:23 info: Connecting to srv041049 as e568363
+2025-05-20 20:11:23 info: Executing command on srv041049 as sudo user: webapps
+2025-05-20 20:11:25 info: Sent Yes/No keyboard in direct format
+2025-05-20 20:11:49 info: Received message from 5824526463: "Yes"
+2025-05-20 20:11:49 info: Current state for user 5824526463: asking_run_more_commands
+2025-05-20 20:11:49 info: User responded to "Run more commands?": "Yes"
+2025-05-20 20:11:50 info: Sent Same/Different server keyboard in direct format
+2025-05-20 20:11:52 info: Received message from 5824526463: "Different server"
+2025-05-20 20:11:52 info: Current state for user 5824526463: asking_same_or_different_server
+2025-05-20 20:11:52 info: User responded to "Same or different server?": "Different server"
+2025-05-20 20:11:52 info: User 5824526463 switching to a different server
+2025-05-20 20:11:52 info: Sent server selection keyboard in direct format
+2025-05-20 20:11:53 info: Received message from 5824526463: "k8-webapps-dev"
+2025-05-20 20:11:53 info: Current state for user 5824526463: selecting_server
+2025-05-20 20:11:53 info: User 5824526463 is selecting server: k8-webapps-dev
+2025-05-20 20:11:53 info: Server found: k8-webapps-dev (srv041049)
+2025-05-20 20:11:53 info: Sending keyboard: {"remove_keyboard":true}
+2025-05-20 20:11:59 info: Received message from 5824526463: "webapps"
+2025-05-20 20:11:59 info: Current state for user 5824526463: awaiting_sudo_user
+2025-05-20 20:11:59 info: Preparing to show command buttons for server k8-webapps-dev
+2025-05-20 20:11:59 info: All 10 command buttons sent at once
+2025-05-20 20:12:03 info: Received message from 5824526463: "COMMAND: Check CPU Usage"
+2025-05-20 20:12:03 info: Current state for user 5824526463: selecting_script
+2025-05-20 20:12:03 info: User 5824526463 is selecting script: COMMAND: Check CPU Usage
+2025-05-20 20:12:03 info: Connecting to srv041049 as e568363
+2025-05-20 20:12:04 info: Executing command on srv041049 as sudo user: webapps
+2025-05-20 20:12:05 info: Sent Yes/No keyboard in direct format
+2025-05-20 20:12:07 info: Received message from 5824526463: "No"
+2025-05-20 20:12:07 info: Current state for user 5824526463: asking_run_more_commands
+2025-05-20 20:12:07 info: User responded to "Run more commands?": "No"
+2025-05-20 20:12:08 info: Sent Logout/Continue keyboard in direct format
+2025-05-20 20:12:09 info: Received message from 5824526463: "Logout"
+2025-05-20 20:12:09 info: Current state for user 5824526463: asking_logout_or_continue
+2025-05-20 20:12:09 info: User responded to "Logout or continue?": "Logout"
+2025-05-20 20:12:09 info: User 5824526463 is logging out
+2025-05-20 20:12:16 info: Received message from 5824526463: "Logout"
+2025-05-20 20:12:16 info: Current state for user 5824526463: no state
+2025-05-20 20:12:23 info: Received message from 5824526463: "Logout"
+2025-05-20 20:12:23 info: Current state for user 5824526463: no state
+2025-05-20 20:24:06 info: Whitelisted users configured: 1
+2025-05-20 20:24:06 warn: WARNING: For security, ensure NODE_SSH_NO_DEBUG=1 is set in production to prevent credential logging
+2025-05-20 20:24:06 info: Attempting to launch bot...
+2025-05-20 20:24:06 info: Bot launched successfully!
+2025-05-20 20:24:09 info: User 5824526463 attempted to start the bot
+2025-05-20 20:24:09 info: User 5824526463 started the bot
+2025-05-20 20:24:25 info: Received message from 5824526463: "Gxyimbd"
+2025-05-20 20:24:25 info: Current state for user 5824526463: awaiting_username
+2025-05-20 20:24:29 info: Received password input from 5824526463
+2025-05-20 20:24:29 info: Current state for user 5824526463: awaiting_password
+2025-05-20 20:24:29 info: Attempting LDAP authentication for user: Gxyimbd
+2025-05-20 20:24:29 info: LDAP bind successful
+2025-05-20 20:25:24 info: User 5824526463 attempted to start the bot
+2025-05-20 20:25:24 info: User 5824526463 started the bot
+2025-05-20 20:25:30 info: Received message from 5824526463: "e568363"
+2025-05-20 20:25:30 info: Current state for user 5824526463: awaiting_username
+2025-05-20 20:25:35 info: Received password input from 5824526463
+2025-05-20 20:25:35 info: Current state for user 5824526463: awaiting_password
+2025-05-20 20:25:35 info: Attempting LDAP authentication for user: e568363
+2025-05-20 20:25:35 info: LDAP bind successful
+2025-05-20 20:25:35 info: User 5824526463 authenticated successfully
+2025-05-20 20:25:36 info: Server keyboard sent to user 5824526463
+2025-05-20 20:28:28 info: Whitelisted users configured: 1
+2025-05-20 20:28:28 warn: WARNING: For security, ensure NODE_SSH_NO_DEBUG=1 is set in production to prevent credential logging
+2025-05-20 20:28:28 info: Attempting to launch bot...
+2025-05-20 20:28:28 info: Bot launched successfully!
+2025-05-20 20:28:29 info: User 5824526463 attempted to start the bot
+2025-05-20 20:28:29 info: User 5824526463 started the bot
+2025-05-20 20:28:33 info: Received message from 5824526463: "e568363"
+2025-05-20 20:28:33 info: Current state for user 5824526463: awaiting_username
+2025-05-20 20:28:36 info: Received password input from 5824526463
+2025-05-20 20:28:36 info: Current state for user 5824526463: awaiting_password
+2025-05-20 20:28:36 info: Attempting LDAP authentication for user: e568363
+2025-05-20 20:28:36 info: LDAP bind successful
+2025-05-20 20:28:36 info: User 5824526463 authenticated successfully
+2025-05-20 20:28:38 info: Server keyboard sent to user 5824526463
+2025-05-20 20:29:04 info: Received message from 5824526463: "k8-webapps-dev"
+2025-05-20 20:29:04 info: Current state for user 5824526463: selecting_server
+2025-05-20 20:29:04 info: User 5824526463 is selecting server: k8-webapps-dev
+2025-05-20 20:29:04 info: Server found: k8-webapps-dev (srv041049)
+2025-05-20 20:29:04 info: Sending keyboard: {"remove_keyboard":true}
+2025-05-20 20:29:09 info: Received message from 5824526463: "webapps"
+2025-05-20 20:29:09 info: Current state for user 5824526463: awaiting_sudo_user
+2025-05-20 20:29:09 info: Preparing to show command buttons for server k8-webapps-dev
+2025-05-20 20:29:10 info: Command buttons sent in 7 groups, showing group 1/7
+2025-05-20 20:29:13 info: Received message from 5824526463: "Next ▶️"
+2025-05-20 20:29:13 info: Current state for user 5824526463: selecting_script
+2025-05-20 20:32:00 info: Whitelisted users configured: 1
+2025-05-20 20:32:00 warn: WARNING: For security, ensure NODE_SSH_NO_DEBUG=1 is set in production to prevent credential logging
+2025-05-20 20:32:00 info: Attempting to launch bot...
+2025-05-20 20:32:00 info: Bot launched successfully!
+2025-05-20 20:32:13 info: User 5824526463 attempted to start the bot
+2025-05-20 20:32:13 info: User 5824526463 started the bot
+2025-05-20 20:32:18 info: Received message from 5824526463: "e568363"
+2025-05-20 20:32:18 info: Current state for user 5824526463: awaiting_username
+2025-05-20 20:32:21 info: Received password input from 5824526463
+2025-05-20 20:32:21 info: Current state for user 5824526463: awaiting_password
+2025-05-20 20:32:21 info: Attempting LDAP authentication for user: e568363
+2025-05-20 20:32:22 info: LDAP bind successful
+2025-05-20 20:32:22 info: User 5824526463 authenticated successfully
+2025-05-20 20:32:23 info: Server keyboard sent to user 5824526463
+2025-05-20 20:32:25 info: Received message from 5824526463: "k8-webapps-dev"
+2025-05-20 20:32:25 info: Current state for user 5824526463: selecting_server
+2025-05-20 20:32:25 info: User 5824526463 is selecting server: k8-webapps-dev
+2025-05-20 20:32:25 info: Server found: k8-webapps-dev (srv041049)
+2025-05-20 20:32:25 info: Sending keyboard: {"remove_keyboard":true}
+2025-05-20 20:32:30 info: Received message from 5824526463: "webapps"
+2025-05-20 20:32:30 info: Current state for user 5824526463: awaiting_sudo_user
+2025-05-20 20:32:30 info: Preparing to show command buttons for server k8-webapps-dev
+2025-05-20 20:32:31 info: All 31 command buttons sent at once
+2025-05-20 20:32:39 info: Received message from 5824526463: "COMMAND: Check Last Login"
+2025-05-20 20:32:39 info: Current state for user 5824526463: selecting_script
+2025-05-20 20:32:39 info: User 5824526463 is selecting script: COMMAND: Check Last Login
+2025-05-20 20:32:39 info: Connecting to srv041049 as e568363
+2025-05-20 20:32:40 info: Executing command on srv041049 as sudo user: webapps
+2025-05-20 20:32:43 info: Sent Yes/No keyboard in direct format
+2025-05-20 20:32:48 info: Received message from 5824526463: "No"
+2025-05-20 20:32:48 info: Current state for user 5824526463: asking_run_more_commands
+2025-05-20 20:32:48 info: User responded to "Run more commands?": "No"
+2025-05-20 20:32:48 info: Sent Logout/Continue keyboard in direct format
+2025-05-20 20:32:49 info: Received message from 5824526463: "Logout"
+2025-05-20 20:32:49 info: Current state for user 5824526463: asking_logout_or_continue
+2025-05-20 20:32:49 info: User responded to "Logout or continue?": "Logout"
+2025-05-20 20:32:49 info: User 5824526463 is logging out
+2025-05-20 20:34:58 info: Whitelisted users configured: 1
+2025-05-20 20:34:58 warn: WARNING: For security, ensure NODE_SSH_NO_DEBUG=1 is set in production to prevent credential logging
+2025-05-20 20:34:58 info: Attempting to launch bot...
+2025-05-20 20:34:58 info: Bot launched successfully!
+2025-05-20 20:35:06 info: User 5824526463 attempted to start the bot
+2025-05-20 20:35:06 info: User 5824526463 started the bot
+2025-05-20 20:35:13 info: Received message from 5824526463: "e568363"
+2025-05-20 20:35:13 info: Current state for user 5824526463: awaiting_username
+2025-05-20 20:35:17 info: Received password input from 5824526463
+2025-05-20 20:35:17 info: Current state for user 5824526463: awaiting_password
+2025-05-20 20:35:17 info: Attempting LDAP authentication for user: e568363
+2025-05-20 20:35:17 info: LDAP bind successful
+2025-05-20 20:35:17 info: User 5824526463 authenticated successfully
+2025-05-20 20:35:17 info: Attempting to delete 2 messages for user 5824526463
+2025-05-20 20:35:17 info: Deleted 2/2 messages for user 5824526463 (0 failed)
+2025-05-20 20:35:19 info: Server keyboard sent to user 5824526463
+2025-05-20 20:35:21 info: Received message from 5824526463: "k8-webapps-dev"
+2025-05-20 20:35:21 info: Current state for user 5824526463: selecting_server
+2025-05-20 20:35:21 info: User 5824526463 is selecting server: k8-webapps-dev
+2025-05-20 20:35:21 info: Server found: k8-webapps-dev (srv041049)
+2025-05-20 20:35:21 info: Sending keyboard: {"remove_keyboard":true}
+2025-05-20 20:35:26 info: Received message from 5824526463: "webapps"
+2025-05-20 20:35:26 info: Current state for user 5824526463: awaiting_sudo_user
+2025-05-20 20:35:26 info: Preparing to show command buttons for server k8-webapps-dev
+2025-05-20 20:35:26 info: All 31 command buttons sent at once
+2025-05-20 20:35:28 info: Received message from 5824526463: "COMMAND: Disk Usage"
+2025-05-20 20:35:28 info: Current state for user 5824526463: selecting_script
+2025-05-20 20:35:28 info: User 5824526463 is selecting script: COMMAND: Disk Usage
+2025-05-20 20:35:28 info: Connecting to srv041049 as e568363
+2025-05-20 20:35:28 info: Executing command on srv041049 as sudo user: webapps
+2025-05-20 20:35:30 info: Sent Yes/No keyboard in direct format
+2025-05-20 20:35:31 info: Received message from 5824526463: "No"
+2025-05-20 20:35:31 info: Current state for user 5824526463: asking_run_more_commands
+2025-05-20 20:35:31 info: User responded to "Run more commands?": "No"
+2025-05-20 20:35:32 info: Sent Logout/Continue keyboard in direct format
+2025-05-20 20:35:33 info: Received message from 5824526463: "Logout"
+2025-05-20 20:35:33 info: Current state for user 5824526463: asking_logout_or_continue
+2025-05-20 20:35:33 info: User responded to "Logout or continue?": "Logout"
+2025-05-20 20:35:33 info: User 5824526463 is logging out and clearing all messages
+2025-05-20 20:35:33 info: Attempting to delete 4 messages for user 5824526463
+2025-05-20 20:35:34 info: Deleted 4/4 messages for user 5824526463 (0 failed)
+2025-05-20 20:35:40 info: Received message from 5824526463: "Logout"
+2025-05-20 20:35:40 info: Current state for user 5824526463: no state
+2025-05-20 20:35:48 info: Attempting to delete 0 messages for user 5824526463
+2025-05-20 20:35:48 info: Deleted 0/0 messages for user 5824526463 (0 failed)
+2025-05-21 09:59:34 info: Whitelisted users configured: 1
+2025-05-21 09:59:34 warn: WARNING: For security, ensure NODE_SSH_NO_DEBUG=1 is set in production to prevent credential logging
+2025-05-21 09:59:34 info: Attempting to launch bot...
+2025-05-21 09:59:34 info: Bot launched successfully!
+2025-05-21 10:01:02 info: User 5824526463 attempted to start the bot
+2025-05-21 10:01:02 info: User 5824526463 started the bot
+2025-05-21 10:01:07 info: Received message from 5824526463: "e568363"
+2025-05-21 10:01:07 info: Current state for user 5824526463: awaiting_username
+2025-05-21 10:01:26 info: Received password input from 5824526463
+2025-05-21 10:01:26 info: Current state for user 5824526463: awaiting_password
+2025-05-21 10:01:26 info: Attempting LDAP authentication for user: e568363
+2025-05-21 10:01:26 info: LDAP bind successful
+2025-05-21 10:01:26 info: User 5824526463 authenticated successfully
+2025-05-21 10:01:26 info: Attempting to delete 2 messages for user 5824526463
+2025-05-21 10:01:27 info: Deleted 2/2 messages for user 5824526463 (0 failed)
+2025-05-21 10:01:28 info: Server keyboard sent to user 5824526463
+2025-05-21 10:05:58 info: Received message from 5824526463: "k8-webapps-dev"
+2025-05-21 10:05:58 info: Current state for user 5824526463: selecting_server
+2025-05-21 10:05:58 info: User 5824526463 is selecting server: k8-webapps-dev
+2025-05-21 10:05:58 info: Server found: k8-webapps-dev (srv041049)
+2025-05-21 10:05:58 info: Sending keyboard: {"remove_keyboard":true}
+2025-05-21 10:06:09 info: Received message from 5824526463: "webapps"
+2025-05-21 10:06:09 info: Current state for user 5824526463: awaiting_sudo_user
+2025-05-21 10:06:09 info: Preparing to show command buttons for server k8-webapps-dev
+2025-05-21 10:06:10 info: All 31 command buttons sent at once
+2025-05-21 10:06:18 info: Received message from 5824526463: "COMMAND: Disk Usage"
+2025-05-21 10:06:18 info: Current state for user 5824526463: selecting_script
+2025-05-21 10:06:18 info: User 5824526463 is selecting script: COMMAND: Disk Usage
+2025-05-21 10:06:18 info: Connecting to srv041049 as e568363
+2025-05-21 10:06:19 info: Executing command on srv041049 as sudo user: webapps
+2025-05-21 10:06:20 info: Sent Yes/No keyboard in direct format
+2025-05-21 10:06:28 info: Received message from 5824526463: "No"
+2025-05-21 10:06:28 info: Current state for user 5824526463: asking_run_more_commands
+2025-05-21 10:06:28 info: User responded to "Run more commands?": "No"
+2025-05-21 10:06:29 info: Sent Logout/Continue keyboard in direct format
+2025-05-21 10:06:31 info: Received message from 5824526463: "Logout"
+2025-05-21 10:06:31 info: Current state for user 5824526463: asking_logout_or_continue
+2025-05-21 10:06:31 info: User responded to "Logout or continue?": "Logout"
+2025-05-21 10:06:31 info: User 5824526463 is logging out and clearing all messages
+2025-05-21 10:06:31 info: Attempting to delete 4 messages for user 5824526463
+2025-05-21 10:06:32 info: Deleted 4/4 messages for user 5824526463 (0 failed)
+2025-05-21 10:13:31 info: Received message from 5824526463: "Logout"
+2025-05-21 10:13:31 info: Current state for user 5824526463: no state
+2025-05-21 10:16:37 info: User 5824526463 attempted to start the bot
+2025-05-21 10:16:37 info: User 5824526463 started the bot
+2025-05-21 10:16:37 info: Attempting to delete 0 messages for user 5824526463
+2025-05-21 10:16:37 info: Deleted 0/0 messages for user 5824526463 (0 failed)
+2025-05-21 10:16:43 info: Received message from 5824526463: "e568363"
+2025-05-21 10:16:43 info: Current state for user 5824526463: awaiting_username
+2025-05-21 10:17:26 info: Received password input from 5824526463
+2025-05-21 10:17:26 info: Current state for user 5824526463: awaiting_password
+2025-05-21 10:17:26 info: Attempting LDAP authentication for user: e568363
+2025-05-21 10:17:26 info: LDAP bind successful
+2025-05-21 10:17:26 info: User 5824526463 authenticated successfully
+2025-05-21 10:17:26 info: Attempting to delete 2 messages for user 5824526463
+2025-05-21 10:17:27 info: Deleted 2/2 messages for user 5824526463 (0 failed)
+2025-05-21 10:17:28 info: Server keyboard sent to user 5824526463
+2025-05-21 10:18:25 info: Received message from 5824526463: "k8-webapps-dev"
+2025-05-21 10:18:25 info: Current state for user 5824526463: selecting_server
+2025-05-21 10:18:25 info: User 5824526463 is selecting server: k8-webapps-dev
+2025-05-21 10:18:25 info: Server found: k8-webapps-dev (srv041049)
+2025-05-21 10:18:25 info: Sending keyboard: {"remove_keyboard":true}
+2025-05-21 10:18:34 info: Received message from 5824526463: "webapps"
+2025-05-21 10:18:34 info: Current state for user 5824526463: awaiting_sudo_user
+2025-05-21 10:18:34 info: Preparing to show command buttons for server k8-webapps-dev
+2025-05-21 10:18:35 info: All 31 command buttons sent at once
+2025-05-21 10:18:43 info: Received message from 5824526463: "COMMAND: Check Memory Usage"
+2025-05-21 10:18:43 info: Current state for user 5824526463: selecting_script
+2025-05-21 10:18:43 info: User 5824526463 is selecting script: COMMAND: Check Memory Usage
+2025-05-21 10:18:44 info: Connecting to srv041049 as e568363
+2025-05-21 10:18:44 info: Executing command on srv041049 as sudo user: webapps
+2025-05-21 10:18:45 info: Sent Yes/No keyboard in direct format
+2025-05-21 10:18:54 info: Received message from 5824526463: "Yes"
+2025-05-21 10:18:54 info: Current state for user 5824526463: asking_run_more_commands
+2025-05-21 10:18:54 info: User responded to "Run more commands?": "Yes"
+2025-05-21 10:18:54 info: Sent Same/Different server keyboard in direct format
+2025-05-21 10:18:56 info: Received message from 5824526463: "Different server"
+2025-05-21 10:18:56 info: Current state for user 5824526463: asking_same_or_different_server
+2025-05-21 10:18:56 info: User responded to "Same or different server?": "Different server"
+2025-05-21 10:18:56 info: User 5824526463 switching to a different server
+2025-05-21 10:18:56 info: Sent server selection keyboard in direct format
+2025-05-21 10:18:58 info: Received message from 5824526463: "k8-webapps-dev"
+2025-05-21 10:18:58 info: Current state for user 5824526463: selecting_server
+2025-05-21 10:18:58 info: User 5824526463 is selecting server: k8-webapps-dev
+2025-05-21 10:18:58 info: Server found: k8-webapps-dev (srv041049)
+2025-05-21 10:18:58 info: Sending keyboard: {"remove_keyboard":true}
+2025-05-21 10:19:04 info: Received message from 5824526463: "webapps"
+2025-05-21 10:19:04 info: Current state for user 5824526463: awaiting_sudo_user
+2025-05-21 10:19:04 info: Preparing to show command buttons for server k8-webapps-dev
+2025-05-21 10:19:05 info: All 31 command buttons sent at once
+2025-05-21 10:19:25 info: Received message from 5824526463: "COMMAND: Disk Usage"
+2025-05-21 10:19:25 info: Current state for user 5824526463: selecting_script
+2025-05-21 10:19:25 info: User 5824526463 is selecting script: COMMAND: Disk Usage
+2025-05-21 10:19:26 info: Connecting to srv041049 as e568363
+2025-05-21 10:19:26 info: Executing command on srv041049 as sudo user: webapps
+2025-05-21 10:19:27 info: Sent Yes/No keyboard in direct format
+2025-05-21 10:19:40 info: Received message from 5824526463: "No"
+2025-05-21 10:19:40 info: Current state for user 5824526463: asking_run_more_commands
+2025-05-21 10:19:40 info: User responded to "Run more commands?": "No"
+2025-05-21 10:19:41 info: Sent Logout/Continue keyboard in direct format
+2025-05-21 10:19:45 info: Received message from 5824526463: "Logout"
+2025-05-21 10:19:45 info: Current state for user 5824526463: asking_logout_or_continue
+2025-05-21 10:19:45 info: User responded to "Logout or continue?": "Logout"
+2025-05-21 10:19:45 info: User 5824526463 is logging out and clearing all messages
+2025-05-21 10:19:45 info: Attempting to delete 7 messages for user 5824526463
+2025-05-21 10:19:46 info: Deleted 7/7 messages for user 5824526463 (0 failed)

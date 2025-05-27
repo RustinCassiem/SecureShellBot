@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  telegram-bot:
+    build: .
+    environment:
+      - BOT_TOKEN=${BOT_TOKEN}
+      - BOT_AUTH_USER=${BOT_AUTH_USER}
+      - BOT_AUTH_PASS=${BOT_AUTH_PASS}
+    # If you want to mount scripts for live editing:
+    # volumes:
+    #   - ./scripts:/app/scripts
