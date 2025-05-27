@@ -3,6 +3,13 @@ const path = require('path');
 module.exports = {
   mode: 'production', // or 'development'
   entry: './src/bot.ts',
+  output: {
+    filename: 'bundle.js',
+    path: path.resolve(__dirname, 'dist'),
+  },
+  resolve: {
+    extensions: ['.ts', '.js'],
+  },
   module: {
     rules: [
       {
@@ -12,12 +19,5 @@ module.exports = {
       },
     ],
   },
-  resolve: {
-    extensions: ['.ts', '.js'],
-  },
-  output: {
-    filename: 'bundle.js',
-    path: path.resolve(__dirname, 'dist'),
-  },
-  target: 'node',
+  target: 'node', // since you're building a Telegram bot
 };

@@ -4,10 +4,10 @@
   "description": "A Telegram bot that can execute scripts on the server.",
   "main": "src/bot.ts",
   "scripts": {
-    "start": "ts-node src/bot.ts",
-    "build": "tsc && npm run copy-data",
-    "copy-data": "copy servers.json dist\\servers.json && copy commands.json dist\\commands.json"
-  },
+  "start": "node dist/bot.js",
+  "build": "webpack && npm run copy-data",
+  "copy-data": "cp servers.json dist/servers.json && cp commands.json dist/commands.json"
+},
   "dependencies": {
     "dotenv": "^16.5.0",
     "ldapjs": "^3.0.7",
