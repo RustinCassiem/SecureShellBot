@@ -316,7 +316,7 @@ bot.on('text', async (ctx) => {
         state.selectedServerName = server.name;
         state.step = 'awaiting_sudo_user';
 
-        await trackMessage(ctx, userId, 'Please enter the sudo user you want to use (e.g., webapps, wildfly, willy):', {
+        await trackMessage(ctx, userId, 'Please enter the sudo user you want to use (e.g., root, tomcat, user):', {
             reply_markup: { remove_keyboard: true }
         });
         return;
@@ -567,7 +567,7 @@ bot.on('text', async (ctx) => {
             await trackMessage(
                 ctx,
                 userId,
-                'Please enter the sudo user you want to use (e.g., webapps, wildfly, willy):',
+                'Please enter the sudo user you want to use (e.g., root, tomcat, user):',
                 {
                     reply_markup: { remove_keyboard: true }
                 }
