@@ -1,4 +1,4 @@
-# Telegram Bot Executor
+# SecureShellBot
 
 This project is a Telegram bot that can execute scripts on remote servers. It allows authenticated users to select a server and run commands, then returns the output via Telegram.
 
@@ -260,7 +260,7 @@ If SSH connections to servers fail:
                                 |
                                 v
 +--------------------------------------------------------------+
-|                      Telegram Bot Executor                    |
+|                      SecureShellBot                    |
 |                                                              |
 |  +-------------+      +----------------+      +------------+ |
 |  |             |      |                |      |            | |
