@@ -10,6 +10,7 @@ This bot allows authorized users to:
 - Choose a sudo user to execute commands as
 - Run predefined commands on the server
 - View command results within Telegram
+- Community edition doesnt have the web app which can edit,add and display server states
 
 ## Features
 
