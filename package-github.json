@@ -1,5 +1,5 @@
 {
-  "name": "telegram-bot-executor",
+  "name": "@YOUR_USERNAME/telegram-bot-executor",
   "version": "1.0.0",
   "description": "A secure Telegram bot that can execute scripts on remote servers via SSH with LDAP authentication.",
   "main": "dist/bot.js",
@@ -41,8 +41,7 @@
     "node": ">=18.0.0"
   },
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/",
-    "access": "public"
+    "registry": "https://npm.pkg.github.com"
   },
   "dependencies": {
     "dotenv": "^16.5.0",
