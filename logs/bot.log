@@ -1,1 +1,9 @@
 
+2025-06-07 16:37:51 info: Whitelisted users configured: 1
+2025-06-07 16:37:51 warn: WARNING: For security, ensure NODE_SSH_NO_DEBUG=1 is set in production to prevent credential logging
+2025-06-07 16:37:51 info: Attempting to launch bot...
+2025-06-07 16:37:51 info: Bot launched successfully!
+2025-06-07 16:48:31 info: Whitelisted users configured: 1
+2025-06-07 16:48:31 warn: WARNING: For security, ensure NODE_SSH_NO_DEBUG=1 is set in production to prevent credential logging
+2025-06-07 16:48:31 info: Attempting to launch bot...
+2025-06-07 16:48:31 info: Bot launched successfully!

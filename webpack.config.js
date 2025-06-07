@@ -17,7 +17,16 @@ module.exports = {
         use: 'ts-loader',
         exclude: /node_modules/,
       },
+      {
+        test: /\.node$/,
+        loader: 'node-loader',
+      },
     ],
   },
   target: 'node', // since you're building a Telegram bot
+  externals: {
+    // Mark .node files as external
+    'cpu-features': 'commonjs cpu-features',
+    'sshcrypto': 'commonjs sshcrypto',
+  },
 };

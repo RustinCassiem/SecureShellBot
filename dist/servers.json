@@ -1,9 +1,5 @@
 [
-  { "name": "k8-webapps-dev", "ip": "srv041049" },
-  { "name": "k8-webapps-prod", "ip": "srv041050" },
-  { "name": "k8-webapps-staging", "ip": "srv041051" },
-  { "name": "k8-webapps-test", "ip": "srv041052" },
-  { "name": "k8-webapps-qa", "ip": "srv041053" },
-  { "name": "k8-webapps-uat", "ip": "srv041054" },
-  { "name": "k8-webapps-preprod", "ip": "srv041055" }
+  { "name": "k8-1", "ip": "cloudserver-k8.io" },
+  { "name": "docker-1", "ip": "cloudserver-docker-1.io" },
+  { "name": "docker-2", "ip": "cloudserver-docker-2.io" }
 ]
